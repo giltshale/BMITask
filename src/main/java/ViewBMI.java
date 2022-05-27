@@ -206,7 +206,7 @@ public class ViewBMI extends JFrame {
     public void paint(Graphics graphics) {
         super.paint(graphics);
         this.dragon.paintIcon(this, graphics, 350, 450);
-
+        repaint();
     }
 
     public void setSlimness(double slimness) {

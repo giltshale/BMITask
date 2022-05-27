@@ -76,6 +76,7 @@ public class ControllerBMI {
         view.heightSlider.addChangeListener(e -> {
                     view.heightLabel.setText("Height: " + view.height + " cm");
                     view.height = view.heightSlider.getValue();
+                    view.heightLabel.repaint();
                 }
         );
         view.small.addActionListener(e ->
